@@ -1,5 +1,3 @@
-
-/* Your CSS Code here. */
 body {
   display: flex;
   justify-content: center;
@@ -17,7 +15,7 @@ body {
   color: white;
 }
 
-.viewer {
+.player__video {
   width: 100%;
   height: auto;
   display: block;
@@ -58,6 +56,6 @@ body {
   width: 0%;
   background: #f00;
   height: 100%;
-  flex-basis: 0%; /* <-- important */
+  flex-basis: 0%;
   transition: width 0.1s linear;
 }
